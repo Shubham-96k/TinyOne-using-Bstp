@@ -1,0 +1,241 @@
+
+/* ######## CSS for Header Starts here ######### */
+
+.header{
+    background-color: var(--primary-color-);
+    padding: 59px 0 107px;
+}
+.mainnavbar .navbar-brand {
+    padding: 0px 15px;
+    width: 180px;
+}
+.mainnavbar .navbar-brand img{
+    width: 100%;
+}
+
+.navbar-default.mainnavbar {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0px;
+}
+.navbar-default.mainnavbar .navbar-nav> li > a,
+.navbar-default.mainnavbar .navbar-nav > li > a:focus, 
+.navbar-default.mainnavbar .navbar-nav > li > a:hover {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.mainnavbar .nav>li{
+    margin-left: 55px;
+    margin-bottom: 60px;
+}
+.ipad{
+    margin-left: 50px;
+}
+.icons{
+    list-style: none;
+    padding-left: 3px;
+}
+.icons>li{
+    display: inline-block;
+    margin-right: 35px;
+}
+.icons>li>a{
+    color: var(--text-primary-color-)
+}
+
+/* ######### CSS for Feature Starts here ############# */
+
+.feature{
+    padding-top: 120px;
+    padding-bottom: 166px;
+}
+.feature .feature-content .pri-heading{
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.feature .feature-content .sec-heading{
+    margin-bottom: 92px;
+}
+
+.feature .topic i{
+    padding: 10px 0px;
+}
+
+.feature .topic .pri-heading{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.feature .topic .para{
+    color: var(--text-topic-para-color);
+    margin-bottom: 0px;
+}
+.feature .topic .paramargin{
+    margin-bottom: 85px;
+}
+
+/* ############  CSS for Footer Starts here  ############# */
+
+.footer{
+    background-color: var(--text-primary-color-);
+    padding: 95px 0 140px;
+}
+
+.footer .footer-content .pri-heading{
+    color: var(--primary-color-);
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.footer .footer-content .sec-heading{
+    color: var(--text-topic-para-color);
+    margin-bottom: 44px;
+}
+.submitform{
+    margin-bottom: 75px;
+}
+.submitform .email {
+    width: calc(100% - 175px);
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid var(--text-primary-color-);
+    font-size: 16px;
+    padding: 18px 0px 19px 23px;
+    margin-right: 19px;
+    height: 50px;
+}
+.submitform .btn {
+    color: var(--text-primary-color-);
+    background-color: var(--primary-color-);
+    border-radius: 8px;
+    border: 2px solid var(--primary-color-);
+    width: 150px;
+    padding: 14px 35px 15px 35px;
+    height: 50px;
+    font-size: 16px; 
+    font-weight: bold;
+    transition: all .1s ease-in-out;
+}
+
+.submitform .btn:active,
+.submitform .btn:hover,
+.submitform .btn:focus{
+    transform: scale(.9,.9);
+    color: var(--primary-color-);
+    background-color: var(--text-primary-color-);
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.footer .icons{
+    margin-bottom: 120px;
+}
+.footer .icons>li>a>i{
+    color: var(--primary-color-)
+}
+.footer .icons>li{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.footeraddress {
+    list-style: none;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.footer .footeraddress>li,
+.footer .footeraddress>li>a{
+    color: var(--text-footer-color);
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1200px){
+    .ipad{
+        margin-left: 0px;
+    }
+    .mainnavbar .nav>li{
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 992px){
+    .ipad{
+        margin-left: 15px;
+    }
+    .mainnavbar .nav>li{
+        margin-left: 20px;
+    }
+    .feature .topic .para {
+        color: var(--text-topic-para-color);
+        margin-bottom: 85px;
+    }
+    .feature{
+        padding-bottom: 81px;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .icons{
+        padding-left: 5px;
+        margin-bottom: 35px;
+    }
+    .ipad{
+        margin-left: 2px;
+    }
+    .topic{
+        text-align: center;
+    }
+    .mainnavbar .nav>li {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        background-color: var(--text-primary-color-);
+    }
+    .navbar-default.mainnavbar .navbar-nav> li > a, 
+    .navbar-default.mainnavbar .navbar-nav > li > a:focus, 
+    .navbar-default.mainnavbar .navbar-nav > li > a:hover {
+        color: var(--primary-color-)
+    }
+    .submitform .email {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .navbar-default.mainnavbar .navbar-toggle .icon-bar {
+        background-color: var(--text-primary-color-);
+    }
+    @media all and (min-width: 768px){
+        .mainnavbar .nav>li {
+            background-color: var(--primary-color-);
+            margin-left: 20px;
+            margin-bottom: 60px;
+        }
+        .navbar-default.mainnavbar .navbar-nav> li > a, 
+        .navbar-default.mainnavbar .navbar-nav > li > a:focus, 
+        .navbar-default.mainnavbar .navbar-nav > li > a:hover {
+            color: var(--text-primary-color-)
+        }
+    }
+}
+
+@media all and (max-width: 480px){
+    .ipad img{
+        width: 100%;
+    }
+    .footer .pad{
+        padding: 0px;
+    }
+}
+

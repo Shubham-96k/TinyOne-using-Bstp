@@ -1,0 +1,29 @@
+:root{
+    --primary-color- : #fcdb00;
+    --text-primary-color-: #010101;
+    --text-secondary-color- : #313841;
+    --text-tertiary-color- : #555555;
+    --text-topic-para-color: #898989;
+    --text-footer-color: #ffffff;
+}
+
+.pri-heading{
+    color: var(--text-primary-color-);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 75px;
+}
+.sec-heading{
+    color: var(--text-secondary-color-);
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.para{
+    color: var(--text-tertiary-color-);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}

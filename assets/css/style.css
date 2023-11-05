@@ -216,6 +216,12 @@
     .navbar-default.mainnavbar .navbar-toggle .icon-bar {
         background-color: var(--text-primary-color-);
     }
+    .navbar-default.mainnavbar .navbar-toggle:focus,
+    .navbar-default.mainnavbar .navbar-toggle:hover{
+        background-color: transparent;
+        border: 2px solid;
+        box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    }
     @media all and (min-width: 768px){
         .mainnavbar .nav>li {
             background-color: var(--primary-color-);
